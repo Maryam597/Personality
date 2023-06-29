@@ -33,8 +33,10 @@ p {
     color: #fff;
 }
 
-img {
+#image {
 text-align: center;
+
+padding: 20px;
 }
 
 
