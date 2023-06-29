@@ -8,6 +8,7 @@
 ul,ol
 {
     list-style: none ;
+    
 }
 body
 {
@@ -41,39 +42,40 @@ header p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    display: flex;
-    justify-content: center;
-    
-
 }
 
 
 
 li {
     margin: 50px;
-    text-align: center;
 }
 
 
 
 .bw {
-    width: 400px;
-    height: 400px;
+    width: 700px;
+    height: 500px;
     background-image: url('images/bw-image.jpg');
     background-size: cover;
 }
 
 .color {
    
-    width: 400px;
-    height: 400px;
+    width: 700px;
+    height: 500px;
     background-image: url('images/color-image.jpg');
     background-size: cover;
-
 }
+
+#images {
+    display: flex;
+    align-items: center;
+}
+
 
 h3 {
     background-color: #2644ef;
+    width: 100px;
 }
 
 .btn {
@@ -84,4 +86,7 @@ h3 {
     background: #2e3033;
     border: 1px solid #1d3bc7;
     padding: 20px;
-   }
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
