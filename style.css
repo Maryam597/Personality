@@ -1,5 +1,4 @@
-*
-{
+*{
     margin:0;
     padding: 0;
     color: white;
@@ -14,6 +13,7 @@ body
 {
     background: #bfbfbf url('images/background.jpg') repeat-x; 
     font-family: Arial, sans-serif;
+    
 }
 header
 {
@@ -43,7 +43,10 @@ header p {
     transform: translate(-50%, -50%);
     display: flex;
     justify-content: center;
+    
+
 }
+
 
 
 li {
@@ -54,42 +57,31 @@ li {
 
 
 .bw {
-    width: 440px;
-    height: 340px;
-    background-image: url(images/bw-image.jpg);
+    width: 400px;
+    height: 400px;
+    background-image: url('images/bw-image.jpg');
     background-size: cover;
-    
 }
 
 .color {
    
-    width: 440px;
-    height: 340px;
-    background-image: url(images/color-image.jpg);
+    width: 400px;
+    height: 400px;
+    background-image: url('images/color-image.jpg');
     background-size: cover;
 
 }
 
-
-#image {
-text-align: center;
-padding: 20px;
+h3 {
+    background-color: #2644ef;
 }
 
+.btn {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    border-radius: 8px 8px 8px 8px;
+    -webkit-border-radius: 8px 8px 8px 8px;
+    -moz-border-radius: 8px 8px 8px 8px;
+    background: #2e3033;
+    border: 1px solid #1d3bc7;
+    padding: 20px;
+   }
