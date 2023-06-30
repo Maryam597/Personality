@@ -1,10 +1,9 @@
 *{
     margin:0;
     padding: 0;
-    color: white;
-    display: flex;
-    flex-direction: column;    
+    box-sizing: 0;
 }
+
 ul,ol
 {
     list-style: none ;
@@ -32,13 +31,10 @@ header h1
 }
 
 
-header p {
-    text-align: center;
-    color: #fff;
-}
+
 
 .section1 {
-    position: absolute;
+    /* position: absolute; */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -65,17 +61,27 @@ li {
     height: 500px;
     background-image: url('images/color-image.jpg');
     background-size: cover;
+    /* position: absolute; */
 }
 
 #images {
     display: flex;
     align-items: center;
+    /* position: absolute; */
 }
 
 
 h3 {
     background-color: #2644ef;
-    width: 100px;
+    width: 200px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Limelight', serif;
+    margin: auto;
+    padding: 7px;
+
+
 }
 
 .btn {
@@ -87,10 +93,32 @@ h3 {
     border: 1px solid #1d3bc7;
     padding: 20px;
     width: 100px;   
+
 }
 
 #description {
     width: 250px;
     height: 500px;
+    font-family: 'Limelight', sans-serif;
     background-color: white;
+
+}
+
+h2 {
+    text-align: center;
+    color: #333333;
+    margin: auto;
+
+
+}
+
+#nom {
+    padding: 25px;
+}
+
+p {
+text-align: center;    
+
+padding: 25px;
+
 }
