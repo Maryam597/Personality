@@ -176,8 +176,9 @@ header h1
 
     display: flex;
     justify-content: space-evenly;
-    margin: 30px;
-    margin-left: 70px;    
+    margin-left: 170px;
+    margin-right: 450px;
+    margin-top: 150px;
 
 }
 
