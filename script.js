@@ -1,29 +1,29 @@
-let bw = document.getElementById("bw");
-let color = document.getElementById("color");
-let description = document.getElementById("description")
+// let bw = document.getElementById("bw");
+// let color = document.getElementById("color");
+// let description = document.getElementById("description")
 
-bw.addEventListener("click", () =>{
+// bw.addEventListener("click", () =>{
 
-if(getComputedStyle(description).display != "none") {
-    description.style.display = "none";
-}
+// if(getComputedStyle(description).display != "none") {
+//     description.style.display = "none";
+// }
 
-else {
-    description.style.display = "block";
-}
-}
-)
+// else {
+//     description.style.display = "block";
+// }
+// }
+// )
 
-function togg() {
-if(getComputedStyle(color).display != "none") {
+// function togg() {
+// if(getComputedStyle(color).display != "none") {
 
-    description.style.display = "none" ;
-}
-else {
-    description.style.display = "block" ;
-}
+//     description.style.display = "none" ;
+// }
+// else {
+//     description.style.display = "block" ;
+// }
 
 
-};
+// };
 
-color.onclick = togg;
+// color.onclick = togg;
