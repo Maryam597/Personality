@@ -73,7 +73,6 @@ header h1
     height: 500px;
     overflow: hidden;
     position: relative;
-
 }
 .bw
 {
@@ -119,7 +118,6 @@ header h1
     height: 460px;
     padding: 20px;
     background: #fff;
-
 }
 
 
@@ -131,7 +129,6 @@ header h1
     text-align: center;
     color: #333;
     text-transform: uppercase;
-
 }
 .description h3
 {
@@ -144,7 +141,6 @@ header h1
     text-align: center;
     text-shadow: 1px 1px 1px #000;
     border-radius: 5px;
-
 }
 .description p
 {
@@ -157,16 +153,19 @@ header h1
 
 .btn {
 
-    border-radius: 8px 8px 8px 8px;
-    -webkit-border-radius: 8px 8px 8px 8px;
-    -moz-border-radius: 8px 8px 8px 8px;
+    border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
     background: #2e3033;
     border: 1px solid #1d3bc7;
-    padding: 20px;
-    width: 100px;   
+    padding: 15px;
+    width: 150px;   
     display: flex;
     flex-direction: row;
     float: inline-end;
+    color: white;
+    font-family: 'Limelight', sans-serif;
+
 }
 
 
@@ -176,10 +175,9 @@ header h1
 
     display: flex;
     justify-content: space-evenly;
-    margin-left: 170px;
-    margin-right: 450px;
-    margin-top: 150px;
-
+    margin: 150px 450px 170px 100px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .container {
