@@ -25,7 +25,13 @@ button1.addEventListener('click', ()=> {
 
 image1.addEventListener('click', ()=> {
     bw1.classList.toggle('active');
+    dwayne.classList.toggle('active');
+    dwayne.querySelector(".color").classList.toggle("active");
+    dwayne.style.width = '280px';
 });
+
+
+
 
 
 
@@ -33,10 +39,16 @@ image1.addEventListener('click', ()=> {
 button2.addEventListener('click', ()=> {
     bw2.classList.toggle('active');
     dwayne.style.width = '';
+    vin.classList.toggle('active');
+    vin.querySelector(".color").classList.toggle("active");
+    vin.style.width = '280px';
 });
 
 image2.addEventListener('click', ()=> {
     bw2.classList.toggle('active');
+    vin.classList.toggle('active');
+    vin.querySelector(".color").classList.toggle("active");
+    vin.style.width = '280px';
 });
 
 

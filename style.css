@@ -113,13 +113,13 @@ header h1
 {
     background-position: -560px 0px;
 }
-/* .description, .description1 */
+
 .description
 {
     position: absolute;
     left: 140px;
-    width: 240px;
-    height: 460px;
+    width: 284px;
+    height: 500px;
     padding: 20px;
     background: #fff;
 }
@@ -190,7 +190,7 @@ header h1
     visibility: visible;
 }
 
-
+/* 
     li {
         float: left;
         width: 140px;
@@ -203,7 +203,7 @@ header h1
 li.active {
     width: 424px;
 
-}
+} */
 
 .color.active {
     left: 0px;
