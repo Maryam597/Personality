@@ -115,7 +115,7 @@ header h1
 {
     background-position: -560px 0px;
 }
-#description
+#description, .description1
 {
     position: absolute;
     left: 140px;
@@ -194,4 +194,9 @@ header h1
 .container {
     display: flex;
     flex-direction: column;
+}
+
+
+#description.active{
+    display: flex;
 }

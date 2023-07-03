@@ -1,11 +1,21 @@
-const button1 = document.querySelector('button1');
-const description = document.querySelector('#description');
+// const button1 = document.querySelector('button1');
+// const description = document.querySelector('#description');
 
-button1.addEventListener('click', ()=>{   //fonction fléchée 
-    if(description.style.display == 'block'){
-    description.style.display = 'none';
+// button1.addEventListener('click', ()=>{   //fonction fléchée 
+//     if(description.style.display == 'block'){
+//     description.style.display = 'none';
+// }
+// else {
+//     description.style.display = 'block';
+// }
+// });
+
+
+const button1 = document.getElementById('button1');
+const description = document.getElementById('description')
+
+button1.onclick = function() {
+    button1.classList.toggle('active');
+    description.classList.toggle('active');
+
 }
-else {
-    description.style.display = 'block';
-}
-});
