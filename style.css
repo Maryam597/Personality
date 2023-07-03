@@ -175,7 +175,7 @@ header h1
 
 
 .bw:hover {
-    display: none;
+    background: url('images/color-image.jpg') no-repeat;
 }
 
 
@@ -191,5 +191,4 @@ header h1
 .container {
     display: flex;
     flex-direction: column;
-
 }
