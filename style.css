@@ -113,7 +113,8 @@ header h1
 {
     background-position: -560px 0px;
 }
-.description, .description1
+/* .description, .description1 */
+.description
 {
     position: absolute;
     left: 140px;
@@ -180,12 +181,35 @@ header h1
 #bw1.active {
     background: url('images/color-image.jpg') no-repeat;
     /* background-position: -140px; */
+
 }
 
-#description1.active {
+#description.active {
     position: relative;
-    background-position: -100px;
+    margin: 10px ;  
+    visibility: visible;
 }
+
+
+    li {
+        float: left;
+        width: 140px;
+        height: 500px;
+        overflow: hidden;
+        position: relative;
+    
+    }
+
+li.active {
+    width: 424px;
+
+}
+
+.color.active {
+    left: 0px;
+}
+
+
 
 
 /* #bw2.active {
@@ -225,13 +249,6 @@ header h1
     flex-direction: column;
 }
 
-
-#button.active{
-    background-color: white;
-}
-
 .description.active {
     background-color: white;
 }
-
-

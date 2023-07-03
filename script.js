@@ -11,15 +11,16 @@ const image2 = document.getElementById('image2');
 const image3 = document.getElementById('image3');
 const image4 = document.getElementById('image4');
 const image5 = document.getElementById('image5');
-
-
+const dwayne = document.getElementById("dwayne");
+const color = document.getElementsByClassName('color')
 
 console.log();
 
 button1.addEventListener('click', ()=> {
     bw1.classList.toggle('active');
-    description1.classList.toggle('active');
-
+    dwayne.classList.toggle('active');
+    dwayne.querySelector(".color").classList.toggle("active");
+    dwayne.style.width = '280px';
 });
 
 image1.addEventListener('click', ()=> {
@@ -29,15 +30,18 @@ image1.addEventListener('click', ()=> {
 
 
 
-
-
 button2.addEventListener('click', ()=> {
     bw2.classList.toggle('active');
+    dwayne.style.width = '';
 });
 
 image2.addEventListener('click', ()=> {
     bw2.classList.toggle('active');
 });
+
+
+
+
 
 
 button3.addEventListener('click', ()=> {
