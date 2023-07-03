@@ -176,10 +176,15 @@ header h1
 
 
 
-.bw:hover {
+.bw.active {
     background: url('images/color-image.jpg') no-repeat;
 }
 
+
+#bw1.active {
+    background: url('images/color-image.jpg') no-repeat;
+
+}
 
 .button {
 
@@ -205,6 +210,6 @@ header h1
     background-color: white;
 }
 
-.bw.active {
-    
-}
+/* .bw.active {
+    background-color: white;
+} */
