@@ -62,10 +62,12 @@ header h1
 
 #section1 ul
 {
-    width: 980px;
+    /* width: 980px;
     height: 500px;
-    margin: 0 auto;
+    margin: 0 auto; */
     padding-top:  148px;
+    display: flex;
+    justify-content: center;
 }
 #section1 ul li
 {
@@ -182,8 +184,9 @@ header h1
 .button {
 
     display: flex;
-    justify-content: space-evenly;
-    margin: 150px 450px 170px 100px;
+    align-items: center;
+    /* margin: 150px 450px 170px 100px; */
+    margin: 150px 0 0 100px;
     padding-left: 200px;
     padding-right: 200px;
 }
