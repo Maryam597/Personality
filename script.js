@@ -11,11 +11,24 @@
 // });
 
 
-const button1 = document.getElementById('button1');
-const description = document.getElementById('description')
+const button = document.getElementById('button');
+const description = document.getElementsByClassName('description');
+const bw = document.getElementsByClassName('bw');
+const color = document.getElementsByClassName('color');
 
-button1.onclick = function() {
-    button1.classList.toggle('active');
-    description.classList.toggle('active');
+console.log();
 
-}
+
+button.addEventListener('click', ()=> {
+    button.classList.toggle('active');
+    // description.classList.toggle('active');
+    // color.classList.add('color');
+    bw.classList.toggle('bw');
+
+
+
+});
+
+
+
+
