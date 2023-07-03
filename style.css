@@ -58,8 +58,6 @@ header h1
     text-shadow: 2px 2px 2px #000;
 }
 
-
-
 #section1 ul
 {
     /* width: 980px;
@@ -126,6 +124,7 @@ header h1
 }
 
 
+
 .description h2
 {
     padding-top: 20px;
@@ -174,16 +173,42 @@ header h1
     margin: 30px;
 }
 
-
-
 .bw.active {
     background: url('images/color-image.jpg') no-repeat;
 }
 
-
 #bw1.active {
     background: url('images/color-image.jpg') no-repeat;
+    /* background-position: -140px; */
 }
+
+#description1.active {
+    position: relative;
+    background-position: -100px;
+}
+
+
+/* #bw2.active {
+    background: url('images/color-image.jpg') no-repeat;
+    background-position: -280px;
+}
+
+
+#bw3.active {
+    background: url('images/color-image.jpg') no-repeat;
+    background-position: -420px;
+}
+
+#bw4.active {
+    background: url('images/color-image.jpg') no-repeat;
+    background-position: -560px;
+}
+
+#bw5.active {
+    background: url('images/color-image.jpg') no-repeat;
+    background-position: -140px;
+} */
+
 
 .button {
 
@@ -209,6 +234,4 @@ header h1
     background-color: white;
 }
 
-/* .bw.active {
-    background-color: white;
-} */
+

@@ -4,7 +4,7 @@ const button3 = document.getElementById('button3');
 const button4 = document.getElementById('button4');
 const button5 = document.getElementById('button5');
 
-const description = document.getElementsByClassName('description');
+const description1 = document.getElementById('description1');
 const bw1 = document.getElementById('bw1');
 const image1 = document.getElementById('image1');
 const image2 = document.getElementById('image2');
@@ -18,11 +18,15 @@ console.log();
 
 button1.addEventListener('click', ()=> {
     bw1.classList.toggle('active');
+    description1.classList.toggle('active');
+
 });
 
 image1.addEventListener('click', ()=> {
     bw1.classList.toggle('active');
 });
+
+
 
 
 
