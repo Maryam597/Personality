@@ -20,7 +20,7 @@ button1.addEventListener('click', ()=> {
     bw1.classList.toggle('active');
     dwayne.classList.toggle('active');
     dwayne.querySelector(".color").classList.toggle("active");
-    dwayne.style.width = '280px';
+    dwayne.style.width = '420px';
     vin.style.width = '';
     imen.style.width = '';
     zita.style.width = '';
@@ -31,16 +31,13 @@ image1.addEventListener('click', ()=> {
     bw1.classList.toggle('active');
     dwayne.classList.toggle('active');
     dwayne.querySelector(".color").classList.toggle("active");
-    dwayne.style.width = '280px';
+    dwayne.style.width = '420px';
     vin.style.width = '';
     imen.style.width = '';
     zita.style.width = '';
     jessica.style.width = '';
 
 });
-
-
-
 
 
 
@@ -53,7 +50,7 @@ button2.addEventListener('click', ()=> {
     jessica.style.width = '';
     vin.classList.toggle('active');
     vin.querySelector(".color").classList.toggle("active");
-    vin.style.width = '280px';
+    vin.style.width = '420px';
 });
 
 image2.addEventListener('click', ()=> {
@@ -64,7 +61,7 @@ image2.addEventListener('click', ()=> {
     jessica.style.width = '';
     vin.classList.toggle('active');
     vin.querySelector(".color").classList.toggle("active");
-    vin.style.width = '280px';
+    vin.style.width = '420px';
 });
 
 
@@ -80,7 +77,7 @@ button3.addEventListener('click', ()=> {
     jessica.style.width = '';
     imen.classList.toggle('active');
     imen.querySelector(".color").classList.toggle("active");
-    imen.style.width = '280px';
+    imen.style.width = '420px';
 });
 
 image3.addEventListener('click', ()=> {
@@ -91,7 +88,7 @@ image3.addEventListener('click', ()=> {
     jessica.style.width = '';
     imen.classList.toggle('active');
     imen.querySelector(".color").classList.toggle("active");
-    imen.style.width = '280px';
+    imen.style.width = '420px';
 });
 
 
@@ -107,7 +104,7 @@ button4.addEventListener('click', ()=> {
     zita.style.width = '';
     jessica.classList.toggle('active');
     jessica.querySelector(".color").classList.toggle("active");
-    jessica.style.width = '280px';
+    jessica.style.width = '420px';
     
 });
 
@@ -119,7 +116,7 @@ image4.addEventListener('click', ()=> {
     zita.style.width = '';
     jessica.classList.toggle('active');
     jessica.querySelector(".color").classList.toggle("active");
-    jessica.style.width = '280px';
+    jessica.style.width = '420px';
 });
 
 
@@ -127,7 +124,7 @@ button5.addEventListener('click', ()=> {
     bw5.classList.toggle('active');
     zita.classList.toggle('active');
     zita.querySelector(".color").classList.toggle("active");
-    zita.style.width = '280px';
+    zita.style.width = '420px';
     vin.style.width = '';
     dwayne.style.width = '';
     imen.style.width = '';
@@ -138,7 +135,7 @@ image5.addEventListener('click', ()=> {
     bw5.classList.toggle('active');
     zita.classList.toggle('active');
     zita.querySelector(".color").classList.toggle("active");
-    zita.style.width = '280px';
+    zita.style.width = '420px';
     vin.style.width = '';
     dwayne.style.width = '';
     imen.style.width = '';
