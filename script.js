@@ -40,6 +40,8 @@ image1.addEventListener('click', ()=> {
     imen.style.width = '';
     zita.style.width = '';
     jessica.style.width = '';
+    dwayne.style.transition = "width 2s ease-in-out 0s";
+
 
 });
 
