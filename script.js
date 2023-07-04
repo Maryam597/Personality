@@ -21,6 +21,10 @@ button1.addEventListener('click', ()=> {
     dwayne.classList.toggle('active');
     dwayne.querySelector(".color").classList.toggle("active");
     dwayne.style.width = '280px';
+    vin.style.width = '';
+    imen.style.width = '';
+    zita.style.width = '';
+    jessica.style.width = '';
 });
 
 image1.addEventListener('click', ()=> {
@@ -30,6 +34,8 @@ image1.addEventListener('click', ()=> {
     dwayne.style.width = '280px';
     vin.style.width = '';
     imen.style.width = '';
+    zita.style.width = '';
+    jessica.style.width = '';
 
 });
 
@@ -43,6 +49,8 @@ button2.addEventListener('click', ()=> {
     bw2.classList.toggle('active');
     dwayne.style.width = '';
     imen.style.width = '';
+    zita.style.width = '';
+    jessica.style.width = '';
     vin.classList.toggle('active');
     vin.querySelector(".color").classList.toggle("active");
     vin.style.width = '280px';
@@ -52,6 +60,8 @@ image2.addEventListener('click', ()=> {
     bw2.classList.toggle('active');
     dwayne.style.width = '';
     imen.style.width = '';
+    zita.style.width = '';
+    jessica.style.width = '';
     vin.classList.toggle('active');
     vin.querySelector(".color").classList.toggle("active");
     vin.style.width = '280px';
@@ -66,6 +76,8 @@ button3.addEventListener('click', ()=> {
     bw3.classList.toggle('active');
     dwayne.style.width = '';
     vin.style.width = '';
+    zita.style.width = '';
+    jessica.style.width = '';
     imen.classList.toggle('active');
     imen.querySelector(".color").classList.toggle("active");
     imen.style.width = '280px';
@@ -75,6 +87,8 @@ image3.addEventListener('click', ()=> {
     bw3.classList.toggle('active');
     vin.style.width = '';
     dwayne.style.width = '';
+    zita.style.width = '';
+    jessica.style.width = '';
     imen.classList.toggle('active');
     imen.querySelector(".color").classList.toggle("active");
     imen.style.width = '280px';
@@ -85,22 +99,48 @@ image3.addEventListener('click', ()=> {
 
 
 
-
-
-
 button4.addEventListener('click', ()=> {
     bw4.classList.toggle('active');
+    vin.style.width = '';
+    dwayne.style.width = '';
+    imen.style.width = '';
+    zita.style.width = '';
+    jessica.classList.toggle('active');
+    jessica.querySelector(".color").classList.toggle("active");
+    jessica.style.width = '280px';
+    
 });
 
 image4.addEventListener('click', ()=> {
     bw4.classList.toggle('active');
+    vin.style.width = '';
+    dwayne.style.width = '';
+    imen.style.width = '';
+    zita.style.width = '';
+    jessica.classList.toggle('active');
+    jessica.querySelector(".color").classList.toggle("active");
+    jessica.style.width = '280px';
 });
 
 
 button5.addEventListener('click', ()=> {
     bw5.classList.toggle('active');
+    zita.classList.toggle('active');
+    zita.querySelector(".color").classList.toggle("active");
+    zita.style.width = '280px';
+    vin.style.width = '';
+    dwayne.style.width = '';
+    imen.style.width = '';
+    jessica.style.width = '';
 });
 
 image5.addEventListener('click', ()=> {
     bw5.classList.toggle('active');
+    zita.classList.toggle('active');
+    zita.querySelector(".color").classList.toggle("active");
+    zita.style.width = '280px';
+    vin.style.width = '';
+    dwayne.style.width = '';
+    imen.style.width = '';
+    jessica.style.width = '';
 });

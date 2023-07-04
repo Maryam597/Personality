@@ -1,55 +1,55 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-ul,ol
-{
-    list-style: none ;
-    
+ul,
+ol {
+    list-style: none;
+
 }
-body
-{
-    background: #bfbfbf url('images/background.jpg') repeat-x; 
+
+body {
+    background: #bfbfbf url('images/background.jpg') repeat-x;
     font-family: Arial, sans-serif;
-    
+
 }
-header
-{
+
+header {
     padding: 30px 0;
 }
-header h1 
-{
+
+header h1 {
     font-size: 40px;
     text-align: center;
     font-family: 'Limelight', sans-serif;
     color: #fff;
     text-transform: uppercase;
-    text-shadow: 2px 2px 2px #000;       
+    text-shadow: 2px 2px 2px #000;
     padding-bottom: 50px;
 }
 
-*
-{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
 }
-ul,ol
-{
-    list-style: none ;
+
+ul,
+ol {
+    list-style: none;
 }
-body
-{
-    background: #bfbfbf url('images/background.jpg') repeat-x; 
+
+body {
+    background: #bfbfbf url('images/background.jpg') repeat-x;
     font-family: Arial, sans-serif;
 }
-header
-{
+
+header {
     padding: 30px 0;
 }
-header h1
-{
+
+header h1 {
     font-size: 40px;
     text-align: center;
     font-family: 'Limelight', sans-serif;
@@ -58,25 +58,24 @@ header h1
     text-shadow: 2px 2px 2px #000;
 }
 
-#section1 ul
-{
+#section1 ul {
     /* width: 980px;
     height: 500px;
     margin: 0 auto; */
-    padding-top:  148px;
+    padding-top: 148px;
     display: flex;
     justify-content: center;
 }
-#section1 ul li
-{
+
+#section1 ul li {
     float: left;
     width: 140px;
     height: 500px;
     overflow: hidden;
     position: relative;
 }
-.bw
-{
+
+.bw {
     position: absolute;
     left: 0px;
     width: 140px;
@@ -85,8 +84,8 @@ header h1
     background: url('images/bw-image.jpg') no-repeat;
     opacity: 0.7;
 }
-.color
-{
+
+.color {
     position: absolute;
     left: 140px;
     width: 140px;
@@ -97,25 +96,23 @@ header h1
 
 }
 
-#image2 div
-{
+#image2 div {
     background-position: -140px 0px;
 }
-#image3 div
-{
+
+#image3 div {
     background-position: -280px 0px;
 }
-#image4 div
-{
+
+#image4 div {
     background-position: -420px 0px;
 }
-#image5 div
-{
+
+#image5 div {
     background-position: -560px 0px;
 }
 
-.description
-{
+.description {
     position: absolute;
     left: 140px;
     width: 284px;
@@ -126,8 +123,7 @@ header h1
 
 
 
-.description h2
-{
+.description h2 {
     padding-top: 20px;
     font-size: 30px;
     font-family: 'Limelight', sans-serif;
@@ -135,24 +131,24 @@ header h1
     color: #333;
     text-transform: uppercase;
 }
-.description h3
-{
-    margin-top:30px;
+
+.description h3 {
+    margin-top: 30px;
     padding: 10px;
     font-size: 26px;
     font-family: 'Lobster', sans-serif;
     background: #2644ef;
-    color:#fff;
+    color: #fff;
     text-align: center;
     text-shadow: 1px 1px 1px #000;
     border-radius: 5px;
 }
-.description p
-{
+
+.description p {
     padding-top: 35px;
     font-size: 22px;
     font-family: 'Lobster', sans-serif;
-    color:#000;
+    color: #000;
     text-align: center;
 }
 
@@ -164,7 +160,7 @@ header h1
     background: #2e3033;
     border: 1px solid #1d3bc7;
     padding: 15px;
-    width: 190px;   
+    width: 190px;
     display: flex;
     flex-direction: row;
     float: inline-end;
@@ -186,7 +182,7 @@ header h1
 
 #description.active {
     position: relative;
-    margin: 10px ;  
+    margin: 10px;
     visibility: visible;
 }
 
