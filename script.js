@@ -12,7 +12,8 @@ const image3 = document.getElementById('image3');
 const image4 = document.getElementById('image4');
 const image5 = document.getElementById('image5');
 const dwayne = document.getElementById("dwayne");
-const color = document.getElementsByClassName('color')
+const color = document.getElementsByClassName('color');
+
 
 console.log();
 
@@ -25,6 +26,7 @@ button1.addEventListener('click', ()=> {
     imen.style.width = '';
     zita.style.width = '';
     jessica.style.width = '';
+
 });
 
 image1.addEventListener('click', ()=> {
