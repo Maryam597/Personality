@@ -70,6 +70,8 @@ image2.addEventListener('click', ()=> {
     vin.classList.toggle('active');
     vin.querySelector(".color").classList.toggle("active");
     vin.style.width = '420px';
+    vin.style.transition = "width 2s ease-in-out 0s";
+
 });
 
 
