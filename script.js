@@ -4,14 +4,11 @@ const button3 = document.getElementById('button3');
 const button4 = document.getElementById('button4');
 const button5 = document.getElementById('button5');
 
-const description1 = document.getElementById('description1');
-const bw1 = document.getElementById('bw1');
 const image1 = document.getElementById('image1');
 const image2 = document.getElementById('image2');
 const image3 = document.getElementById('image3');
 const image4 = document.getElementById('image4');
 const image5 = document.getElementById('image5');
-const dwayne = document.getElementById("dwayne");
 const color = document.getElementsByClassName('color');
 
 
@@ -26,9 +23,7 @@ button1.addEventListener('click', ()=> {
     imen.style.width = '';
     zita.style.width = '';
     jessica.style.width = '';
-    dwayne.style.transition = "width 2s ease-in-out 0s";
-
-
+    dwayne.style.transition = "width 1s ease-in-out 0s";
 });
 
 image1.addEventListener('click', ()=> {
@@ -40,9 +35,7 @@ image1.addEventListener('click', ()=> {
     imen.style.width = '';
     zita.style.width = '';
     jessica.style.width = '';
-    dwayne.style.transition = "width 2s ease-in-out 0s";
-
-
+    dwayne.style.transition = "width 1s ease-in-out 0s";
 });
 
 
@@ -57,8 +50,7 @@ button2.addEventListener('click', ()=> {
     vin.classList.toggle('active');
     vin.querySelector(".color").classList.toggle("active");
     vin.style.width = '420px';
-    vin.style.transition = "width 2s ease-in-out 0s";
-
+    vin.style.transition = "width 1s ease-in-out 0s";
 });
 
 image2.addEventListener('click', ()=> {
@@ -70,13 +62,8 @@ image2.addEventListener('click', ()=> {
     vin.classList.toggle('active');
     vin.querySelector(".color").classList.toggle("active");
     vin.style.width = '420px';
-    vin.style.transition = "width 2s ease-in-out 0s";
-
+    vin.style.transition = "width 1s ease-in-out 0s";
 });
-
-
-
-
 
 
 button3.addEventListener('click', ()=> {
@@ -88,6 +75,8 @@ button3.addEventListener('click', ()=> {
     imen.classList.toggle('active');
     imen.querySelector(".color").classList.toggle("active");
     imen.style.width = '420px';
+    imen.style.transition = "width 1s ease-in-out 0s";
+
 });
 
 image3.addEventListener('click', ()=> {
@@ -99,11 +88,8 @@ image3.addEventListener('click', ()=> {
     imen.classList.toggle('active');
     imen.querySelector(".color").classList.toggle("active");
     imen.style.width = '420px';
+    imen.style.transition = "width 1s ease-in-out 0s";
 });
-
-
-
-
 
 
 button4.addEventListener('click', ()=> {
@@ -115,7 +101,7 @@ button4.addEventListener('click', ()=> {
     jessica.classList.toggle('active');
     jessica.querySelector(".color").classList.toggle("active");
     jessica.style.width = '420px';
-    
+    jessica.style.transition = "width 1s ease-in-out 0s";    
 });
 
 image4.addEventListener('click', ()=> {
@@ -127,6 +113,7 @@ image4.addEventListener('click', ()=> {
     jessica.classList.toggle('active');
     jessica.querySelector(".color").classList.toggle("active");
     jessica.style.width = '420px';
+    jessica.style.transition = "width 1s ease-in-out 0s";
 });
 
 
@@ -139,6 +126,7 @@ button5.addEventListener('click', ()=> {
     dwayne.style.width = '';
     imen.style.width = '';
     jessica.style.width = '';
+    zita.style.transition = "width 1s ease-in-out 0s";
 });
 
 image5.addEventListener('click', ()=> {
@@ -150,4 +138,5 @@ image5.addEventListener('click', ()=> {
     dwayne.style.width = '';
     imen.style.width = '';
     jessica.style.width = '';
+    zita.style.transition = "width 1s ease-in-out 0s";
 });
