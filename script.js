@@ -14,6 +14,14 @@ const color = document.getElementsByClassName('color');
 
 console.log();
 
+window.onload = defaut();
+
+function defaut() {
+    imen.querySelector(".color").classList.toggle("active");
+    imen.style.width = '420px';
+
+}
+
 button1.addEventListener('click', ()=> {
     bw1.classList.toggle('active');
     dwayne.classList.toggle('active');
