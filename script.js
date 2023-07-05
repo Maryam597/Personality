@@ -10,6 +10,8 @@ function defaut() {
 //     if (couleur.getElementsByClassName('color'))
 // }
 
+
+
 button1.addEventListener('click', ()=> {
     bw1.classList.toggle('active');
     dwayne.classList.toggle('active');
