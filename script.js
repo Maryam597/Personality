@@ -1,17 +1,3 @@
-const button1 = document.getElementById('button1');
-const button2 = document.getElementById('button2');
-const button3 = document.getElementById('button3');
-const button4 = document.getElementById('button4');
-const button5 = document.getElementById('button5');
-
-const image1 = document.getElementById('image1');
-const image2 = document.getElementById('image2');
-const image3 = document.getElementById('image3');
-const image4 = document.getElementById('image4');
-const image5 = document.getElementById('image5');
-const color = document.getElementsByClassName('color');
-
-
 console.log();
 
 window.onload = defaut();
@@ -20,8 +6,6 @@ function defaut() {
     imen.querySelector(".color").classList.toggle("active");
     imen.style.width = '420px';
 }
-
-
 // function couleur () {
 //     if (couleur.getElementsByClassName('color'))
 // }
@@ -49,9 +33,6 @@ image1.addEventListener('click', ()=> {
     jessica.style.width = '';
     dwayne.style.transition = "width 1s ease-in-out 0s";
 });
-
-
-
 
 button2.addEventListener('click', ()=> {
     bw2.classList.toggle('active');
