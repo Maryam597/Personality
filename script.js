@@ -19,8 +19,12 @@ window.onload = defaut();
 function defaut() {
     imen.querySelector(".color").classList.toggle("active");
     imen.style.width = '420px';
-
 }
+
+
+// function couleur () {
+//     if (couleur.getElementsByClassName('color'))
+// }
 
 button1.addEventListener('click', ()=> {
     bw1.classList.toggle('active');
